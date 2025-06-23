@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="dark">
+<title>项目开发文档</title>
+</head>
+
+<body>
+	<h1>2024.9.17</h1>
+	<p>项目准备开始。先看英雄设计，提前准备一些系统和机制。</p>
+	<br>
+    <p>命名规范：修改自虚幻项目命名规范</p>
+    <p>[AssetTypePrefix]_[AssetName]_[Descriptor]_[OptionalVariantLetterOrNumber]</p>
+    <p>OptionalVariantLetterOrNumber 是可选的，用于区分资产的多个版本或变体。通常使用时间和事件来描述</p>
+    <p>命名请使用中文</p>
+    <p><a href="https://dev.epicgames.com/documentation/zh-cn/unreal-engine/recommended-asset-naming-conventions-in-unreal-engine-projects" target="_blank">跳转至epic命名规范</a></p>
+    <br>
+    <p>看英雄和装备的设计，在下面逐步增加机制设计</p>
+
+    <p>切换摄像机</p>
+    <br>
+    <p>
+        
+    </p>
+    <p>全局游戏时停</p>
+    <p>特定单位时停</p>
+    <p>特定单位不时停</p>
+    <br>
+    <p>地形创造、地形对象</p>
+    <br>
+    <p>物品检索器（检索周围符合某类要求的物品的数量。比如检索英雄的数量）</p>
+    <p>从物品检索器引申出的物品影响器</p>
+    <br>
+    <p>一切obj都继承自一个祖类，命名为“模板”。</p>
+    <h2>元素属性：</h2>
+    <p>对于装备和英雄、地形、道具等都有可能的元素。</p>
+    <p>元素有8中：金木水火土电光空。元素间的交互待设计。</p>
+    <br>
+    <p>地图天气机制。晴初、鬼等英雄。</p>
+    <br>
+    <p>英雄方向系统。比如破绽方向、长风等机制。</p>
+    <p>技能范围显性（最重要）</p>
+    <br>
+    <p>伤害机制：</p>
+    <p>继承路径：模板--伤害</p>
+    <br>
+    <h1>待完成</h1>
+    <h2><a href="功能文档/角色模板.html" target="_blank">角色模板</a></h2>
+    <h2><a href="功能文档/AI功能.html" target="_blank">AI功能</a></h2>
+    <h2><a href="功能文档/增强输入与摄像机设置.html" target="_blank">增强输入与摄像机设置</a></h2>
+    <p>多摄像机切换</p>
+    <p>相机与角色距离</p>
+    <p>增强输入系统：多摄像机对应多操控模式</p>
+    <br>
+    <h1>已完成</h1>
+    <h2><a href="功能文档/计时器.html" target="_blank">计时器</a></h2>
+    <p>全局计时器</p>
+    <p>定点计时器（某时刻开始计时）</p>
+    <p>定时器</p>
+    <h2><a href="功能文档/产生器.html" target="_blank">产生器</a></h2>
+    <p>概率生成器</p>
+    <p>计数器</p>
+    <h2><a href="功能文档/组件.html" target="_blank">组件</a></h2>
+    <p>元素组件</p>
+
+    
+    
+
+    <br>
+    <br>
+</body>
+</html>

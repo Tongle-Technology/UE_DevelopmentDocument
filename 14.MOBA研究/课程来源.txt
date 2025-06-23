@@ -1,0 +1,6 @@
+https://www.udemy.com/course/unreal-engine-5-gas-top-down-rpg/
+
+课程所需的资源已经存放在移动硬盘中，路径为
+LizzyImporsive/游戏/Asset.zip
+StoredDate/Asset.zip
+
